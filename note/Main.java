@@ -1,6 +1,10 @@
 package org.example.note;
 
-public class Main {
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
 
+
+public class Main {
 
 }
