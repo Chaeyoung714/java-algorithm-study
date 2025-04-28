@@ -9,6 +9,9 @@ import java.util.Queue;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+// https://www.acmicpc.net/problem/1260
+// Silver2 Solved
+
 public class DfsBfs1260 {
     private static List<Edge> edges;
 
