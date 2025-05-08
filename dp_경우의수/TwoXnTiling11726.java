@@ -1,11 +1,11 @@
-package org.example.dp;
+package org.example.dp_경우의수;
 
-//https://www.acmicpc.net/problem/11727
+//https://www.acmicpc.net/problem/11726
 // solved Silver3
 
 import java.util.Scanner;
 
-public class TwoXnTiling11727 {
+public class TwoXnTiling11726 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -16,12 +16,12 @@ public class TwoXnTiling11727 {
         DP[1] = 1;
 
         if (n > 1) {
-            DP[2] = 3;
+            DP[2] = 2;
         }
 
         if (n > 2) {
             for (int i = 3; i <= n; i++) {
-                DP[i] = (DP[i - 1] + DP[i - 2] * 2) % 10007;
+                DP[i] = (DP[i - 1] + DP[i - 2]) % 10007;
             }
         }
 

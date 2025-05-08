@@ -1,4 +1,4 @@
-package org.example.dp;
+package org.example.dp_경우의수;
 
 import java.util.Scanner;
 

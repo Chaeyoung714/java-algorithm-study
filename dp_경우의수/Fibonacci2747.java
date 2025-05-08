@@ -1,4 +1,4 @@
-package org.example.dp;
+package org.example.dp_경우의수;
 
 //https://www.acmicpc.net/problem/2747
 //solved Bronze2
