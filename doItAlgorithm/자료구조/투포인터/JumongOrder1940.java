@@ -1,4 +1,4 @@
-package org.example.doItAlgorithm.자료구조.구간합;
+package org.example.doItAlgorithm.자료구조.투포인터;
 
 // https://www.acmicpc.net/problem/1940
 // silver4 solved
