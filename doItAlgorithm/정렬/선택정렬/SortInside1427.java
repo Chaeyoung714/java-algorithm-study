@@ -1,6 +1,7 @@
 package org.example.doItAlgorithm.정렬.선택정렬;
 
 // https://www.acmicpc.net/problem/1427
+// solved Silver5
 
 import java.io.*;
 import java.util.*;
@@ -29,6 +30,5 @@ public class SortInside1427 {
         }
 
         System.out.println(sb.reverse());
-
     }
 }
