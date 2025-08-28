@@ -1,6 +1,7 @@
 package org.example.doItAlgorithm.탐색.깊이우선탐색;
 
 // https://www.acmicpc.net/problem/2023
+// solved gold5
 
 import java.io.*;
 import java.util.*;
