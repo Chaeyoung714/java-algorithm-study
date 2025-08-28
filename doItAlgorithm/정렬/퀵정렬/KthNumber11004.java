@@ -1,6 +1,7 @@
 package org.example.doItAlgorithm.정렬.퀵정렬;
 
 // https://www.acmicpc.net/problem/11004
+// 시간초과 상태
 
 import java.util.*;
 import java.io.*;
@@ -82,7 +83,10 @@ public class KthNumber11004 {
         }
         numbers[left - 1] = pivot;
 
-        if (k <= left - 1) {
+        if (k == left - 1) { //틀렸던 이유
+            return numbers[left - 1];
+        }
+        if (k < left - 1) {
             return doQuickSort(numbers, k, start, left - 2);
         }
         return doQuickSort(numbers, k, left, end);
