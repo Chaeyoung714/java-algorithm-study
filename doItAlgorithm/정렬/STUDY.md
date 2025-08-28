@@ -1,5 +1,9 @@
 # 학습 내용
 
+- 정렬에서 중요한 것
+  - 머지 정렬
+  - 힙 정렬
+
 - 버블정렬
   - 두개씩 버블로 묶어서 swap하며 정렬함 -> 가장 맨 오른쪽부터 왼쪽으로 정렬됨
   - 시간복잡도 = O(n^2)
@@ -22,6 +26,11 @@
 ---
 
 - Arrays.sort()
-  - 평균 : O(nlog(n)) / 최악 : O(n^2)
+   - 평균 : O(nlog(n)) / 최악 : O(n^2)
 - Collections.sort()
+  - 팀 소트 사용 (merge + 선택)
   - 평균, 최악 : O(nlog(n))
+- Tim Sort는 최악에도 시간복잡도 O(nlogn)을 보장합니다. 
+- Dual-Pivot Quick Sort는 최악에 시간복잡도 O(n^2)으로 동작합니다. 
+- Collections.sort(List<T>)는 항상 Tim Sort로 동작합니다. 
+- Arrays.sort()는 인자가 primitive 타입이면 Dual-Pivot Quick Sort, 객체 타입이면 Tim Sort로 동작합니다.
